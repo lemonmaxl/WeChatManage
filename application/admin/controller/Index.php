@@ -6,7 +6,7 @@ class Index extends Controller{
 
 	public function index(){
 		$data = db('admin')->select();
-		var_dump($data);
+		dump($data);
 	
 	}
 
